@@ -17,8 +17,8 @@ body {
 }
 
 .content {
-    max-width: 900px;
-    width: 80vw;
+    max-width: 1000px;
+    width: 90vw;
 }
 
 header,
@@ -31,12 +31,16 @@ footer,
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero p,
 header a {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
+    padding: 0;
 }
 
 header .logo {
@@ -70,7 +74,7 @@ header .content {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 24px;
+    padding-top: 24px;
 }
 
 .logo {
@@ -82,3 +86,29 @@ header a {
     text-decoration: none;
 }
 
+.hero .content{
+    display: flex;
+    margin: 136px 0;
+    gap: 36px;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    padding: 10px 42px;
+    margin: 16px 0;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
