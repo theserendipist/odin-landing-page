@@ -89,7 +89,7 @@ header a {
 
 .hero .content{
     display: flex;
-    margin: 136px 0;
+    margin: 102px 0;
     gap: 36px;
 }
 
@@ -139,13 +139,13 @@ button {
 
 .card img {
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 16px;
     border-color: #3882f6;
 }
 
 .quote-section .content {
     box-sizing: border-box;
-    padding: 56px 128px;
+    padding: 56px 102px;
 }
 
 .quote {
